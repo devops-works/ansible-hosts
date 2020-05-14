@@ -1,3 +1,0 @@
-- name: Reload hostname
-  service: name=hostname state=restarted
-  when: ansible_distribution_version | version_compare('14.04', '<=')
