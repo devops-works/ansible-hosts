@@ -1,2 +1,3 @@
 ---
 hosts_more_entries: []
+hosts_fix_cloud_config: true

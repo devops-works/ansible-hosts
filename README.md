@@ -11,7 +11,10 @@ None
 Role Variables
 --------------
 
-None
+- `hosts_more_entries` (default `[]`): additional hosts entries to add to hosts
+  file
+- `hosts_fix_cloud_config` (default: `true`): whetner to fix cloud config if
+  present
 
 Dependencies
 ------------
