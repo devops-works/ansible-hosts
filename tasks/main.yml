@@ -1,3 +1,8 @@
-- include_tasks: hosts.yml
+---
+- include_tasks: 
+    file: hosts.yml
+    apply:
+      tags:
+        - hosts
   tags:
-    - hosts
+    - always
